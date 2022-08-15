@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İneternet Bağlantı Kontrolü Uygulaması</title>
+
+               <!-- Google Fontları Ekleyelim -->
+               <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
+
+                <!-- CSS VE JS DOSYALARIMIZI EKLEYELİM (Normalde Js dosyaları performanstna dolayı body bölümünün bir önüne eklenmesi gerekiyor..) -->
+                <link  href="./public/css/style.css" rel=" stylesheet">
+                <script src="./public/javascript/main.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="status" id="status" >
+            Butona Tıklayarak Internet Baglantısını Kontrol Edebilirsiniz...
+        </div>
+        <button onclick="checkConnectivityStatus()">Kontrol Et</button>
+    </div>
+    
+</body>
+</html>
